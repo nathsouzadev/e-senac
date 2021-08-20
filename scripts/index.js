@@ -4,7 +4,7 @@ let posts
 const App = {
     inicializar(){  
 
-        fetch("http://localhost:5000/posts")
+        fetch("https://senac-backend.herokuapp.com/posts")
         .then(response => response.json())
         .then(response => {
             posts = response
